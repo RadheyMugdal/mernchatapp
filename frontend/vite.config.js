@@ -8,7 +8,7 @@ export default defineConfig({
 		port: 3000,
 		proxy: {
 			"/api": {
-				target: "https://mernchatapp-backend.vercel.app/",
+				target: "https://mernchatappbyradhey.onrender.com",
 			},
 		},
 	},
