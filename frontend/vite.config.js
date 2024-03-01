@@ -8,7 +8,7 @@ export default defineConfig({
 		port: 3000,
 		proxy: {
 			"/api": {
-				target: "https://chatappbackend-zeta.vercel.app",
+				target: "https://mernchatapp-backend.vercel.app/",
 			},
 		},
 	},
